@@ -10,6 +10,8 @@
 		924BA57919AB753500B6E7E2 /* POLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BA57819AB753500B6E7E2 /* POLDetailViewController.m */; };
 		924BA57B19AB77D300B6E7E2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924BA57A19AB77D300B6E7E2 /* Accounts.framework */; };
 		924BA57D19AB77DD00B6E7E2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924BA57C19AB77DD00B6E7E2 /* Social.framework */; };
+		924BA57F19AB788900B6E7E2 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 924BA57E19AB788900B6E7E2 /* start.png */; };
+		924BA58119AB789000B6E7E2 /* start2.png in Resources */ = {isa = PBXBuildFile; fileRef = 924BA58019AB789000B6E7E2 /* start2.png */; };
 		92FF5FBA19AB70F700D6ED5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FF5FB919AB70F700D6ED5B /* Foundation.framework */; };
 		92FF5FBC19AB70F700D6ED5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FF5FBB19AB70F700D6ED5B /* CoreGraphics.framework */; };
 		92FF5FBE19AB70F700D6ED5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FF5FBD19AB70F700D6ED5B /* UIKit.framework */; };
@@ -41,6 +43,8 @@
 		924BA57819AB753500B6E7E2 /* POLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POLDetailViewController.m; sourceTree = "<group>"; };
 		924BA57A19AB77D300B6E7E2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		924BA57C19AB77DD00B6E7E2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		924BA57E19AB788900B6E7E2 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		924BA58019AB789000B6E7E2 /* start2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start2.png; sourceTree = "<group>"; };
 		92FF5FB619AB70F700D6ED5B /* sampleTwitterClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleTwitterClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FF5FB919AB70F700D6ED5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		92FF5FBB19AB70F700D6ED5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -139,6 +143,8 @@
 		92FF5FC019AB70F700D6ED5B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				924BA58019AB789000B6E7E2 /* start2.png */,
+				924BA57E19AB788900B6E7E2 /* start.png */,
 				92FF5FC119AB70F700D6ED5B /* sampleTwitterClient-Info.plist */,
 				92FF5FC219AB70F700D6ED5B /* InfoPlist.strings */,
 				92FF5FC519AB70F700D6ED5B /* main.m */,
@@ -244,7 +250,9 @@
 			files = (
 				92FF5FD219AB70F700D6ED5B /* Images.xcassets in Resources */,
 				92FF5FC419AB70F700D6ED5B /* InfoPlist.strings in Resources */,
+				924BA57F19AB788900B6E7E2 /* start.png in Resources */,
 				92FF5FCD19AB70F700D6ED5B /* Main.storyboard in Resources */,
+				924BA58119AB789000B6E7E2 /* start2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +398,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sampleTwitterClient/sampleTwitterClient-Prefix.pch";
 				INFOPLIST_FILE = "sampleTwitterClient/sampleTwitterClient-Info.plist";
@@ -403,7 +410,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sampleTwitterClient/sampleTwitterClient-Prefix.pch";
 				INFOPLIST_FILE = "sampleTwitterClient/sampleTwitterClient-Info.plist";

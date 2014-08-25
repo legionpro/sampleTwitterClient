@@ -20,6 +20,15 @@
 
 @implementation POLMasterViewController
 
+-(void) alertCheckAccount
+{
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Error"
+                                                    message:@"Please, go to Settings and verify Twitter account and permissions"
+                                                   delegate:self
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
@@ -77,11 +86,13 @@
                  }
              } else {
                  dispatch_async(dispatch_get_main_queue(), ^{
+                     [self alertCheckAccount];
                      [self.refreshControl endRefreshing];
                  });
              }
          }];
     }else{
+        [self alertCheckAccount];
         [self.refreshControl endRefreshing];
     }
 }
@@ -104,6 +115,7 @@
         [self presentViewController:controller animated:YES completion:Nil];
     }
     else{
+        [self alertCheckAccount];
         [self.refreshControl endRefreshing];
         //NSLog(@"not available");
     }

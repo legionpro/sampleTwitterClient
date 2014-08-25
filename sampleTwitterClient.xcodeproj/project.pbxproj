@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		924BA57919AB753500B6E7E2 /* POLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BA57819AB753500B6E7E2 /* POLDetailViewController.m */; };
+		924BA57B19AB77D300B6E7E2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924BA57A19AB77D300B6E7E2 /* Accounts.framework */; };
+		924BA57D19AB77DD00B6E7E2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924BA57C19AB77DD00B6E7E2 /* Social.framework */; };
 		92FF5FBA19AB70F700D6ED5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FF5FB919AB70F700D6ED5B /* Foundation.framework */; };
 		92FF5FBC19AB70F700D6ED5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FF5FBB19AB70F700D6ED5B /* CoreGraphics.framework */; };
 		92FF5FBE19AB70F700D6ED5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FF5FBD19AB70F700D6ED5B /* UIKit.framework */; };
@@ -14,7 +17,7 @@
 		92FF5FC619AB70F700D6ED5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FF5FC519AB70F700D6ED5B /* main.m */; };
 		92FF5FCA19AB70F700D6ED5B /* POLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FF5FC919AB70F700D6ED5B /* POLAppDelegate.m */; };
 		92FF5FCD19AB70F700D6ED5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FF5FCB19AB70F700D6ED5B /* Main.storyboard */; };
-		92FF5FD019AB70F700D6ED5B /* POLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FF5FCF19AB70F700D6ED5B /* POLViewController.m */; };
+		92FF5FD019AB70F700D6ED5B /* POLMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FF5FCF19AB70F700D6ED5B /* POLMasterViewController.m */; };
 		92FF5FD219AB70F700D6ED5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FF5FD119AB70F700D6ED5B /* Images.xcassets */; };
 		92FF5FD919AB70F700D6ED5B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FF5FD819AB70F700D6ED5B /* XCTest.framework */; };
 		92FF5FDA19AB70F700D6ED5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FF5FB919AB70F700D6ED5B /* Foundation.framework */; };
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		924BA57719AB753500B6E7E2 /* POLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POLDetailViewController.h; sourceTree = "<group>"; };
+		924BA57819AB753500B6E7E2 /* POLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POLDetailViewController.m; sourceTree = "<group>"; };
+		924BA57A19AB77D300B6E7E2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		924BA57C19AB77DD00B6E7E2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		92FF5FB619AB70F700D6ED5B /* sampleTwitterClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleTwitterClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FF5FB919AB70F700D6ED5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		92FF5FBB19AB70F700D6ED5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +52,8 @@
 		92FF5FC819AB70F700D6ED5B /* POLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POLAppDelegate.h; sourceTree = "<group>"; };
 		92FF5FC919AB70F700D6ED5B /* POLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POLAppDelegate.m; sourceTree = "<group>"; };
 		92FF5FCC19AB70F700D6ED5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92FF5FCE19AB70F700D6ED5B /* POLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POLViewController.h; sourceTree = "<group>"; };
-		92FF5FCF19AB70F700D6ED5B /* POLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POLViewController.m; sourceTree = "<group>"; };
+		92FF5FCE19AB70F700D6ED5B /* POLMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POLMasterViewController.h; sourceTree = "<group>"; };
+		92FF5FCF19AB70F700D6ED5B /* POLMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POLMasterViewController.m; sourceTree = "<group>"; };
 		92FF5FD119AB70F700D6ED5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		92FF5FD719AB70F700D6ED5B /* sampleTwitterClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTwitterClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FF5FD819AB70F700D6ED5B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924BA57D19AB77DD00B6E7E2 /* Social.framework in Frameworks */,
+				924BA57B19AB77D300B6E7E2 /* Accounts.framework in Frameworks */,
 				92FF5FBC19AB70F700D6ED5B /* CoreGraphics.framework in Frameworks */,
 				92FF5FBE19AB70F700D6ED5B /* UIKit.framework in Frameworks */,
 				92FF5FBA19AB70F700D6ED5B /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		92FF5FB819AB70F700D6ED5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				924BA57C19AB77DD00B6E7E2 /* Social.framework */,
+				924BA57A19AB77D300B6E7E2 /* Accounts.framework */,
 				92FF5FB919AB70F700D6ED5B /* Foundation.framework */,
 				92FF5FBB19AB70F700D6ED5B /* CoreGraphics.framework */,
 				92FF5FBD19AB70F700D6ED5B /* UIKit.framework */,
@@ -115,8 +126,10 @@
 				92FF5FC819AB70F700D6ED5B /* POLAppDelegate.h */,
 				92FF5FC919AB70F700D6ED5B /* POLAppDelegate.m */,
 				92FF5FCB19AB70F700D6ED5B /* Main.storyboard */,
-				92FF5FCE19AB70F700D6ED5B /* POLViewController.h */,
-				92FF5FCF19AB70F700D6ED5B /* POLViewController.m */,
+				92FF5FCE19AB70F700D6ED5B /* POLMasterViewController.h */,
+				924BA57719AB753500B6E7E2 /* POLDetailViewController.h */,
+				924BA57819AB753500B6E7E2 /* POLDetailViewController.m */,
+				92FF5FCF19AB70F700D6ED5B /* POLMasterViewController.m */,
 				92FF5FD119AB70F700D6ED5B /* Images.xcassets */,
 				92FF5FC019AB70F700D6ED5B /* Supporting Files */,
 			);
@@ -251,7 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				92FF5FCA19AB70F700D6ED5B /* POLAppDelegate.m in Sources */,
-				92FF5FD019AB70F700D6ED5B /* POLViewController.m in Sources */,
+				924BA57919AB753500B6E7E2 /* POLDetailViewController.m in Sources */,
+				92FF5FD019AB70F700D6ED5B /* POLMasterViewController.m in Sources */,
 				92FF5FC619AB70F700D6ED5B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +471,7 @@
 				92FF5FEA19AB70F700D6ED5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92FF5FEB19AB70F700D6ED5B /* Build configuration list for PBXNativeTarget "sampleTwitterClientTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +480,7 @@
 				92FF5FED19AB70F700D6ED5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
